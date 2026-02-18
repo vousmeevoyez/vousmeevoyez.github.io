@@ -79,3 +79,4 @@ section.publications ul{
 section.publications li{
   text-align:left;
 }
+section.publications{max-width: 100%;}

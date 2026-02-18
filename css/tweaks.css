@@ -67,3 +67,15 @@ table td[align="right"],
 table th[align="right"] {
     text-align: right !important;
 }
+
+section.publications{
+  display:block;
+  text-align:left;
+}
+section.publications ul{
+  margin:0;
+  padding-left:1.25rem;
+}
+section.publications li{
+  text-align:left;
+}

@@ -80,3 +80,21 @@ section.publications li{
   text-align:left;
 }
 section.publications{max-width: 100%;}
+
+.footer{
+  text-align:center;
+  padding:2rem 0;
+}
+
+.social-links a{
+  margin:0 12px;
+  font-size:22px;
+  color:#444;
+  text-decoration:none;
+  transition:0.2s ease;
+}
+
+.social-links a:hover{
+  color:#000;
+  transform:translateY(-2px);
+}

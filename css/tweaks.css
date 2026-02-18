@@ -81,42 +81,42 @@ section.publications li{
 }
 section.publications{max-width: 100%;}
 
-footer .social-links a,
-footer .social-links a:visited{
+footer .social-links a i{
+  border:0 !important;
+  padding:0 !important;
+  background:transparent !important;
+  border-radius:0 !important;
+  box-shadow:none !important;
+  display:block !important;
+  font-size:20px;
+  line-height:1;
+  color:#888 !important;
+}
+
+footer .social-links a{
   border:0 !important;
   background:transparent !important;
   box-shadow:none !important;
   padding:0 !important;
   margin:0 !important;
   min-width:0 !important;
-  width:auto !important;
-  height:auto !important;
   display:inline-flex !important;
   align-items:center !important;
   justify-content:center !important;
-  color:#888 !important;
   text-decoration:none !important;
-}
-
-footer .social-links a i{
-  font-size:20px;
-  line-height:1;
 }
 
 footer .social-links{
   display:flex;
   justify-content:center;
+  align-items:center;
   gap:22px;
   margin:1.25rem 0;
+  flex-wrap:wrap;
 }
 
-footer .social-links a:hover{
+footer .social-links a:hover i{
   color:#000 !important;
   transform:translateY(-2px);
 }
 
-footer small{
-  display:block;
-  opacity:.55;
-  font-size:.8rem;
-}

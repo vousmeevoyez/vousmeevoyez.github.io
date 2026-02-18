@@ -126,3 +126,14 @@ footer small{
   text-align:center;
   margin-top:12px;
 }
+
+footer{
+  text-align:center !important;
+}
+
+footer small{
+  display:block;
+  width:100%;
+  text-align:center !important;
+  margin:12px auto 0;
+}

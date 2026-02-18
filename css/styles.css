@@ -592,3 +592,15 @@ blockquote footer {
     background-color: var(--color-scrollbar);
     border-radius: 10px;
 }
+
+.logo-text {
+  font-size: 22px;
+  font-weight: 700;
+  text-decoration: none;
+  color: #000;
+  letter-spacing: 0.5px;
+}
+
+.logo-text:hover {
+  opacity: 0.8;
+}

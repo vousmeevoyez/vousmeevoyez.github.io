@@ -120,3 +120,9 @@ footer .social-links a:hover i{
   transform:translateY(-2px);
 }
 
+footer small{
+  display:block;
+  width:100%;
+  text-align:center;
+  margin-top:12px;
+}

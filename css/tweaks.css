@@ -86,6 +86,10 @@ section.publications{max-width: 100%;}
   padding:2rem 0;
 }
 
+.social-links{
+  margin-bottom:1rem;
+}
+
 .social-links a{
   margin:0 12px;
   font-size:22px;
@@ -98,3 +102,10 @@ section.publications{max-width: 100%;}
   color:#000;
   transform:translateY(-2px);
 }
+
+.footer small{
+  display:block;
+  opacity:0.7;
+  font-size:0.85rem;
+}
+

@@ -83,18 +83,19 @@ section.publications{max-width: 100%;}
 
 .footer{
   text-align:center;
-  padding:2rem 0;
+  padding:3rem 0 2rem;
 }
 
 .social-links{
-  margin-bottom:1rem;
+  display:flex;
+  justify-content:center;
+  gap:28px;
+  margin-bottom:1.5rem;
 }
 
 .social-links a{
-  margin:0 12px;
-  font-size:22px;
-  color:#444;
-  text-decoration:none;
+  font-size:20px;
+  color:#888;
   transition:0.2s ease;
 }
 
@@ -104,8 +105,8 @@ section.publications{max-width: 100%;}
 }
 
 .footer small{
-  display:block;
-  opacity:0.7;
-  font-size:0.85rem;
+  font-size:0.8rem;
+  opacity:0.5;
 }
+
 
